@@ -1,6 +1,6 @@
-import React from 'react';
+import React from "react";
 
-const Navbar = () => {
+const Navbar = ({ links }) => {
   return (
     <nav>
       <ul>
