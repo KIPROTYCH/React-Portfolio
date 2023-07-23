@@ -1,13 +1,5 @@
-import logo from './logo.svg';
-import './App.css';
-import Navbar from './components/Navbar';
-
-function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-    </div>
-  );
-}
-
-export default App;
+import React from "react";
+import Navbar from "./components/Navbar";
+import AboutMe from "./components/AboutMe";
+import Projects from "./components/Projects";
+import ContactForm from "./components/ContactForm";
